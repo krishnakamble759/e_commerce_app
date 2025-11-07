@@ -3,6 +3,12 @@
 A Flutter-based e-commerce app developed as part of the **Ideamagix Flutter Developer Internship Test**.  
 It uses the [FakeStore API](https://fakestoreapi.com/) for data, featuring authentication, filtering, sorting, cart, and guest checkout.
 
+## 📱 Download APK
+[📦 Click to Download APK](https://drive.google.com/file/d/1u_sDainymZgOyc-gtl-VBRqwO7ZKmHyw/view?usp=drivesdk)
+
+## 🎥 Demo Video
+[▶ Watch Screen Recording](https://drive.google.com/file/d/1CVh9nE72VaK2W3EF2FLyEHOXqHtR8_z2/view?usp=drivesdk)
+
 ---
 
 ## 🚀 Features
