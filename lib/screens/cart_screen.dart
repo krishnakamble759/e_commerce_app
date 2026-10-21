@@ -31,7 +31,7 @@ class CartScreen extends StatelessWidget {
                     return ListTile(
                       leading: Image.network(item.product.image, height:50, width:50),
                       title: Text(item.product.title, maxLines: 2),
-                      subtitle: Text('Quantity: ${item.quantity} . \$${item.totalPrice.toStringAsFixed(2)}'),
+                      subtitle: Text('Quantity: ${item.quantity} . ₹${item.totalPrice.toStringAsFixed(2)}'),
                       trailing: Row(
                         mainAxisSize:MainAxisSize.min,
                         children: [
@@ -54,7 +54,7 @@ class CartScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   children: [
-                    Text('Total: \$${cartProv.totalPrice.toStringAsFixed(2)}',
+                    Text('Total: ₹${cartProv.totalPrice.toStringAsFixed(2)}',
                         style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                     const SizedBox(height: 10),
                     ElevatedButton.icon(

@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android Native ignores
+android_native/**/build/
+android_native/.gradle/
+android_native/.idea/
+android_native/local.properties
+android_native/**/*.iml
+
+# Large media files (exceeds GitHub 100MB limit)
+assets/demo/
+*.mp4
+

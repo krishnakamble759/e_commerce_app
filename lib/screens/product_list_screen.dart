@@ -142,7 +142,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                             style: const TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),
-                        Text('\$${p.price.toStringAsFixed(2)}'),
+                        Text('₹${p.price.toStringAsFixed(2)}'),
                         IconButton(
                           icon: const Icon(Icons.add_shopping_cart),
                           onPressed: () => cartProv.addToCart(p),

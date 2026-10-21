@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Commerce App</string>
+    <string name="welcome_store">Welcome to INAM Store</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="products">Products</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Guest Checkout</string>
+</resources>
